@@ -1,4 +1,4 @@
 # CMakeDemo
-mkdir build
-cd build
-cmake -G "Your Generator" ..
+* mkdir build
+* cd build
+* cmake -G "You:r Generator" ..
