@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
     if(argc < 2)
     {
-        fprintf(stdout, "dasd");
+        fprintf(stdout, "dasd\n");
         return 1;
     }
 

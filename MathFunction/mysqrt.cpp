@@ -1,5 +1,9 @@
-#include <math.h>
+#include "MathFunction.h"
 double mysqrt(double input)
 {
-    return 1.52311;
+#if defined (HAVE_LOG) && defined (HAVE_EXP)
+    return exp(log(x) * 0.5);
+#else
+    return 1.2313;
+#endif
 }
